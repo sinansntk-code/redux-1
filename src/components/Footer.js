@@ -16,36 +16,7 @@ export default function Footer() {
         justifyContent: "center" // 👈 Centers on small screens
       }}
     >
-      <div
-        style={{
-          display: "flex",
-          height: "100px",
-          width: "100%",          // 👈 Full width on small screens
-          maxWidth: "600px",      // 👈 Limit width on large screens
-          backgroundColor: "#FDEDED",
-          borderRadius: "4px",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "20px",
-          flexWrap: "wrap"        // 👈 Buttons wrap on small screens
-        }}
-      >
-        <Button style={{ backgroundColor: "#F875AA", border: "0px" }}>
-          <Nav.Link href="/"><h5>HOME</h5></Nav.Link>
-        </Button>
-
-        <Button style={{ backgroundColor: "#F875AA", border: "0px" }}>
-          <Nav.Link href="/categories"><h5>CATEGORIES</h5></Nav.Link>
-        </Button>
-
-        <Button style={{ backgroundColor: "#F875AA", border: "0px" }}>
-          <Nav.Link href="/login"><h5>LOGIN</h5></Nav.Link>
-        </Button>
-
-        <Button style={{ backgroundColor: "#F875AA", border: "0px" }}>
-          <Nav.Link href="/cart"><h5>CART</h5></Nav.Link>
-        </Button>
-      </div>
+     
 
       {/* RIGHT FOOTER */}
       <div
